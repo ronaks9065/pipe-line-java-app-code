@@ -5,7 +5,7 @@ RUN apt-get update && \
     tree \
     vim && \
   rm -rf /var/lib/apt/lists/* && apt-get clean && apt-get purge
-COPY pkg/demo.war /usr/local/tomcat/webapps/
+COPY pkg/demo.war /usr/local/tomcat/webapps/demo.war
 
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
