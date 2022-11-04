@@ -1,2 +1,2 @@
 FROM tomcat
-COPY pkg/demo.war /usr/local/tomcat/webapps/demo.war
+COPY demo.war /usr/local/tomcat/webapps/
