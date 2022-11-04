@@ -1,2 +1,2 @@
 FROM tomcat
-COPY ROOT /usr/local/tomcat/webapps/
+ADD ROOT /usr/local/tomcat/webapps/
